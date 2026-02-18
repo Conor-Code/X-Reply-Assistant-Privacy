@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Reply Assistant - Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: #e7e9ea;
+            background: #000;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            color: #71767b;
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #1d9bf0;
+        }
+        p {
+            margin-bottom: 16px;
+            color: #d6d9db;
+        }
+        ul {
+            margin-bottom: 16px;
+            padding-left: 24px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #d6d9db;
+        }
+        strong {
+            color: #e7e9ea;
+        }
+        a {
+            color: #1d9bf0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .summary {
+            background: #16181c;
+            border: 1px solid #2f3336;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 32px;
+        }
+        .summary p {
+            margin-bottom: 0;
+        }
+        .contact {
+            margin-top: 40px;
+            padding-top: 24px;
+            border-top: 1px solid #2f3336;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>X Reply Assistant — Privacy Policy</h1>
+        <p class="last-updated">Last updated: February 19, 2026</p>
+
+        <div class="summary">
+            <p><strong>In short:</strong> We don't collect your personal data. Your profile, favourites, and API key stay in your browser and are never sent to our servers.</p>
+        </div>
+
+        <h2>What data stays in your browser</h2>
+        <p>The following data is stored locally in your browser using Chrome's storage API and never leaves your device:</p>
+        <ul>
+            <li>Your profile information (role, tools, posting voice, goal)</li>
+            <li>Your favourite replies</li>
+            <li>Your Anthropic API key (if you choose to add one)</li>
+            <li>Your reply history and daily count</li>
+            <li>Your daily goal setting</li>
+        </ul>
+
+        <h2>What our server receives</h2>
+        <p>When you use the free tier (3 replies per day), the following is sent to our backend server to generate replies:</p>
+        <ul>
+            <li>The tweet text you paste into the extension</li>
+            <li>Your selected tone</li>
+            <li>Your profile information (if set, to personalise replies)</li>
+            <li>Your favourite replies (if saved, used as style examples)</li>
+            <li>Your IP address (used solely for rate limiting — 3 requests per day)</li>
+        </ul>
+        <p>We do not store tweet text, profile information, or favourite replies on our server. They are used only to generate your reply and are discarded immediately after.</p>
+        <p>Your IP address is stored with a daily request count to enforce the rate limit. This resets daily and is not linked to any personal information.</p>
+
+        <h2>Bring Your Own API Key</h2>
+        <p>If you add your own Anthropic API key, reply generation happens directly between your browser and Anthropic's API. Our server is not involved at all. Your API key is stored in your browser and is never sent to our servers.</p>
+
+        <h2>Third-party services</h2>
+        <p>When using the free tier, your tweet text and profile context are sent to <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic's API</a> to generate replies. Anthropic's privacy policy governs how they handle this data.</p>
+        <p>When using your own API key, the same data is sent to Anthropic directly from your browser under your own API agreement with Anthropic.</p>
+
+        <h2>Data we do NOT collect</h2>
+        <ul>
+            <li>We do not collect your name, email, or any account information</li>
+            <li>We do not track your browsing activity</li>
+            <li>We do not use cookies or analytics</li>
+            <li>We do not sell or share any data with third parties</li>
+            <li>We do not serve advertisements</li>
+        </ul>
+
+        <h2>Your control</h2>
+        <p>You can delete all locally stored data at any time by removing the extension from Chrome. You can also clear individual data (profile, favourites, API key) from within the extension itself.</p>
+
+        <h2>Changes to this policy</h2>
+        <p>If this policy changes, the updated version will be posted on this page with a new date. Continued use of the extension after changes constitutes acceptance of the updated policy.</p>
+
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>If you have questions about this privacy policy, you can reach out on <a href="https://x.com/" target="_blank">X (Twitter)</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
