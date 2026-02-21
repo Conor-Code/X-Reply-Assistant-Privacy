@@ -77,17 +77,22 @@
         <p class="last-updated">Last updated: February 19, 2026</p>
 
         <div class="summary">
-            <p><strong>In short:</strong> We don't collect your personal data. Your profile, favourites, and API key stay in your browser and are never sent to our servers.</p>
+            <p><strong>In short:</strong> Your API key stays in your browser and is never sent to our servers. When using the free tier, your profile and favourites are sent only to generate your reply and are never stored.</p>
         </div>
 
         <h2>What data stays in your browser</h2>
         <p>The following data is stored locally in your browser using Chrome's storage API and never leaves your device:</p>
         <ul>
-            <li>Your profile information (role, tools, posting voice, goal)</li>
-            <li>Your favourite replies</li>
             <li>Your Anthropic API key (if you choose to add one)</li>
             <li>Your reply history and daily count</li>
             <li>Your daily goal setting</li>
+        </ul>
+
+        <h2>What data is stored locally but sent when generating replies</h2>
+        <p>The following data is stored in your browser but is sent to our server when you use the free tier to generate a reply. It is never stored on our server and is discarded immediately after use:</p>
+        <ul>
+            <li>Your profile information (role, tools, posting voice, goal)</li>
+            <li>Your favourite replies (used as style examples)</li>
         </ul>
 
         <h2>What our server receives</h2>
@@ -99,6 +104,7 @@
             <li>Your favourite replies (if saved, used as style examples)</li>
             <li>Your IP address (used solely for rate limiting — 3 requests per day)</li>
         </ul>
+        
         <p>We do not store tweet text, profile information, or favourite replies on our server. They are used only to generate your reply and are discarded immediately after.</p>
         <p>Your IP address is stored with a daily request count to enforce the rate limit. This resets daily and is not linked to any personal information.</p>
 
